@@ -28,7 +28,7 @@ namespace PBBGDiscordBot
 
                 // Tokens should be considered secret data and never hard-coded.
                 // We can read from the environment variable to avoid hardcoding.
-                await client.LoginAsync(TokenType.Bot, "LKZ95dNMJb6O_H0NvZWPW8Awq2vhAoal");
+                await client.LoginAsync(TokenType.Bot, "{token}");
                 //await client.LoginAsync(TokenType.Bot, Environment.GetEnvironmentVariable("token"));
                 await client.StartAsync();
 
